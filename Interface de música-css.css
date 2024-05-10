@@ -1,0 +1,148 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.capa{
+    position: relative;
+    top: 35px;
+    left: 40px;
+}
+.caixa1{
+    width: 400px;
+    height: 750px;
+    background-image: linear-gradient(#ffffff, #77477e);
+    border: 5px solid #000000; 
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.divisória {
+    width: 400px;
+    height: 3px;
+    background-color: #000000;
+    position: relative;
+    top: -350px;
+    left: 752px;
+}
+.barra2{
+    width: 330px;
+    height: 12px;
+    background-color: #77477e;
+    position: relative;
+    top: -360px;
+    left: 786px;
+}
+.barra{
+    width: 200px;
+    height: 8px;
+    background-color: #aedd2b;
+    position: relative;
+    top: -350px;
+    left: 790px;
+    z-index: 10;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bolinha{
+    width: 60px;
+    height: 60px;
+    background-color: #aedd2b;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    position: relative;
+    top: -235px;
+    left: 915px;
+}
+.bolinha::before,.bolinha::after{
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-color: #aedd2b;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    position: absolute;
+    top: -3px;
+    left: -100px;
+}
+.bolinha::after{
+    content: "";
+    left: 100px;
+}
+.play{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent ;
+    border-bottom: 20px solid #000000;
+    transform: rotate(-270deg);
+    position: relative;
+    left: 930px;
+    top: -278px;
+
+    
+}
+.play::before,.play::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent ;
+    border-bottom: 20px solid #000000;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -102px;
+    left: -20px;
+}
+.play::after{
+    position: absolute;
+    top: 105px;
+    left: -20px;
+    transform: rotate(180deg);
+}   
+.barra-passar{
+    width: 3px;
+    height: 30px;
+    background-color: #000000;
+    position: relative;
+    left: 1062px;
+    top: -323px;
+}
+.barra-voltar{
+    width: 3px;
+    height: 30px;
+    background-color: #000000;
+    position: relative;
+    left: 832px;
+    top: -352px;
+}
+.tempo h4{
+    position: relative;
+    left: 1080px;
+    top: -530px;
+}
+.coração{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 470px;
+    top: -400px;
+}
+.coração::before,.coração::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    height: 30px;
+    background-color: #cc3747;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    left: 320px;
+    top: -75px;
+}
+.coração::after{
+    left: 328px;
+    transform: rotate(45deg)
+}

@@ -1,0 +1,157 @@
+.linha1{
+    width: 3px;
+    height: 380px;
+    background-color: #000000;
+    position: relative;
+    left: 500px;
+    top: 200px; 
+}
+.linha2{
+    width: 370px;
+    height: 3px;
+    background-color: #000000;
+    position: relative;
+    left: 500px;
+    top: 200px;
+}
+.seta1{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent ;
+    border-bottom: 8px solid #000000;
+    transform: rotate(-270deg);
+    position: relative;
+    left: 860px;
+    top: 195px;
+}
+.seta2{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent ;
+    border-bottom: 8px solid #000000;
+    transform: rotate(0deg);
+    position: relative;
+    left: 493px;
+    top: -199px;
+}
+.barra1{
+    width: 32px;
+    height: 100px;
+    background-color: #FF0000;
+    border: 3px solid #000000;
+    position: relative;
+    left: 550px;
+    top: 77px; 
+}
+.barra2{
+    width: 32px;
+    height: 229px;
+    background-color: #8870ff;
+    border: 3px solid #000000;
+    position: relative;
+    left: 620px;
+    top: -158px; 
+}
+.barra3{
+    width: 32px;
+    height: 190px;
+    background-color: #ccff33;
+    border: 3px solid #000000;
+    position: relative;
+    left: 695px;
+    top: -354px;
+}
+.barra4{
+    width: 32px;
+    height: 350px;
+    background-color: #07a2a6;
+    border: 3px solid #000000;
+    position: relative;
+    left: 770px;
+    top: -710px;
+}
+.vendas{
+    position: relative;
+    left: 420px;
+    top: -1150px;
+}
+.mês{
+    position: relative;
+    left: 870px;
+    top: -762px;
+}
+.divisória1{
+    width: 22px;
+    height: 4px;
+    background-color: #000000;
+    position: relative;
+    left: 490px;
+    top: -1169px;
+}
+.divisória2{
+    width: 22px;
+    height: 4px;
+    background-color: #000000;
+    position: relative;
+    left: 490px;
+    top: -1085px;
+}
+.divisória3{
+    width: 22px;
+    height: 4px;
+    background-color: #000000;
+    position: relative;
+    left: 490px;
+    top: -995px;
+}
+.divisória4{
+    width: 22px;
+    height: 4px;
+    background-color: #000000;
+    position: relative;
+    left: 490px;
+    top: -907px;
+}
+.mês1{
+    position: relative;
+    left: 555px;
+    top: -1000px;
+
+}
+.mês2{
+    position: relative;
+    left: 625px;
+    top: -1038px;
+}
+.mês3{
+    position: relative;
+    left: 699px;
+    top: -1076px;
+}
+.mês4{
+    position: relative;
+    left: 778px;
+    top: -1115px;
+}
+.nome1{
+    position: relative;
+    left: 450px;
+    top: -939px;
+}
+.nome2{
+    position: relative;
+    left: 450px;
+    top: -1071px;
+}
+.nome3{
+    position: relative;
+    left: 450px;
+    top: -1203px;
+}
+.nome4{
+    position: relative;
+    left: 450px;
+    top: -1329px;
+}

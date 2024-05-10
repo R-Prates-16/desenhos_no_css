@@ -1,0 +1,99 @@
+.corpo{
+    width: 590px;
+    height: 170px;
+    background-color: #FF0000;
+    border: 1px solid #000000;
+    position: relative;
+    top: 480px;
+    left: 520px;
+    border-top-right-radius: 80px;
+
+}
+.parachoque{
+    width: 38px;
+    height: 22px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    position: relative;
+    top: 440px;
+    left: 1080px;
+}
+   
+.farol{
+    width: 48px;
+    height: 48px;
+    background-color: #FFFF00; 
+    border-radius: 50%; 
+    border: 2px solid #000000;
+    position: relative;
+    top: 291px;
+    left: 1039px;}
+
+.roda1{
+    width: 130px;
+    height: 130px;
+    background-color: #000000; 
+    border-radius: 50%; 
+    border: 2px solid #ffffff;
+    position: relative;
+    top: 320px;
+    left: 910px;
+}
+.roda2{
+    width: 130px;
+    height: 130px;
+    background-color: #000000; 
+    border-radius: 50%; 
+    border: 2px solid #ffffff;
+    position: relative;
+    top: 187px;
+    left: 570px;
+}
+.asa1{
+    width: 120px;
+    height: 15px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    position: relative;
+    top: -134px;
+    left: 510px;
+}
+.asa2{
+    width: 15px;
+    height: 120px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    position: relative;
+    top:-155px;
+    left: 590px;  
+    transform: rotate(140deg);
+    z-index: -1;
+}
+.coluna1{   
+    width: 15px;
+    height: 135px;
+    background-color: #000000;
+    border: 2px solid #000000; 
+    position: relative;
+    top: -342px;
+    left: 732px;
+
+}
+.coluna2{
+    width: 15px;
+    height: 135px;
+    background-color: #000000;
+    border: 2px solid #000000; 
+    position: relative;
+    top: -480px;
+    left: 898px;
+}
+.teto{
+    width: 185px;
+    height: 19px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    position: relative;
+    top: -335px;
+    left: 730px;
+}

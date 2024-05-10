@@ -1,0 +1,121 @@
+.Robo{
+    width: 8%;
+    margin: 30px auto;
+}
+
+.pescoço{
+    width: 40px;
+    height: 50px;
+    background-color: blueviolet; 
+    border: 2px solid black; 
+    position: relative;
+    top: -1595px;
+    left: 28px;
+
+}
+.cabeça{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    position: relative;
+    top: -1567px;
+}
+.corpo{
+    width: 200px;
+    height: 400px;
+    background-color: pink;
+    border: 2px solid black;
+    position: relative;
+    top: 235px;
+    left: -43px;
+}
+.perna1{
+    width: 55px;
+    height: 350px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: relative;
+    top: -291px;
+    right: 40px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}
+.perna2{
+    width: 55px;
+    height: 350px;
+    background-color: blueviolet;
+    border: 2px solid black ;
+    position: relative;
+    top: -645px;
+    left: 99px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.braço1{
+    width: 49px;
+    height: 260px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: relative;
+    top: -172px;
+    right: 129px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    transform: rotate(20deg);
+}
+.braço2{
+    width: 49px;
+    height: 260px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position:relative;
+    top: -438px;
+    left: 195px ;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    transform: rotate(340deg);
+}
+.olhos{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    background-color: blueviolet;
+    position: relative;
+    left: 62px;
+    top: -1660px;
+    z-index: 9999999999999999999;
+}
+.olhos2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: -1744px;
+    left: 12px;
+    background-color: blueviolet;
+}
+.pupila1{
+    width: 16px;
+    height: 16px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    top:-1769px;
+    left: 22px;
+    z-index: 9999999999999;
+}
+.pupila2{
+    width: 16px;
+    height: 16px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: -1789px;
+    left: 72px;
+    z-index: 9999999999999;
+}
